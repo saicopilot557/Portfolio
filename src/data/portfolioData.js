@@ -84,7 +84,7 @@ export const technicalSkills = {
       skills: [
         { name: "Java", level: 95 },
         { name: "JavaScript", level: 88 },
-        { name: "Python", level: 70 },
+        { name: "TypeScript", level: 70 },
         { name: "PL/SQL", level: 85 },
       ]
     },
