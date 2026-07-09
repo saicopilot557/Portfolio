@@ -1,5 +1,4 @@
-import React from 'react';
-import stackImage from '../assets/about/yusuf-avatar.png';
+import stackImage from '../assets/about/sai-photo.png';
 import { aboutContent } from '../data/portfolioData';
 
 // Tech stack SVG icons rendered inline for crisp rendering
@@ -24,22 +23,16 @@ const SpringBootIcon = () => (
   </div>
 );
 
-const MernIcon = () => (
+const AWSIcon = () => (
   <div className="flex flex-col items-center gap-2">
     <svg className="w-16 h-16 md:w-20 md:h-20" viewBox="0 0 128 128">
-      {/* Central React Atom */}
-      <g stroke="#00d8ff" strokeWidth="4.5" fill="none" transform="translate(10, 10)">
-        <ellipse cx="54" cy="54" rx="16" ry="46" transform="rotate(30 54 54)" />
-        <ellipse cx="54" cy="54" rx="16" ry="46" transform="rotate(90 54 54)" />
-        <ellipse cx="54" cy="54" rx="16" ry="46" transform="rotate(150 54 54)" />
-        <circle cx="54" cy="54" r="7" fill="#00d8ff" />
-      </g>
-      {/* MongoDB Leaf overlap overlay in bottom left */}
-      <path fill="#439934" d="M36 84c-3-6-4-15 0-22 3 7 9 10 10 15 2 1.5 1 3-2 5l-8 2zm4-25c2 4 4 11 0 16-1-5-6-8-7-12-2-1-1-3 2-4l5 0z" opacity="0.9" />
-      {/* Node.js Hexagon in top right */}
-      <path fill="#339933" d="M98 32l-12-7-12 7v14l12 7 12-7V32zm-12 1.5l8 4.6v9.3l-8 4.6-8-4.6v-9.3l8-4.6z" opacity="0.9" />
+      {/* Cloud shape */}
+      <path fill="#FF9900" d="M100.5 58c-1.2-13.6-12.6-24.3-26.5-24.3-10.8 0-20.1 6.5-24.3 15.8-1.1-.2-2.3-.3-3.5-.3-11.3 0-20.5 9.2-20.5 20.5 0 .9.1 1.8.2 2.7C17.3 74.7 12 81.9 12 90.4c0 11.3 9.2 20.5 20.5 20.5h63.9c11.9 0 21.6-9.7 21.6-21.6 0-10.5-7.6-19.3-17.5-21.3z"/>
+      {/* AWS smile arrow */}
+      <path fill="none" stroke="#232F3E" strokeWidth="3.5" strokeLinecap="round" d="M32 96c14 8 42 10 62-2" />
+      <path fill="#232F3E" d="M92 91l6 2-2 6z" />
     </svg>
-    <span className="text-xs font-bold text-white/70 uppercase tracking-wider">MERN Stack</span>
+    <span className="text-xs font-bold text-white/70 uppercase tracking-wider">AWS Cloud</span>
   </div>
 );
 
@@ -65,9 +58,9 @@ const About = () => {
               </div>
               {/* Image Container */}
               <div className="w-full aspect-[3/4] overflow-hidden rounded-xl bg-gray-800 border-2 border-transparent">
-                <img 
-                  src={stackImage} 
-                  alt="Md Yusuf — Full Stack & Java Developer" 
+                <img
+                  src={stackImage}
+                  alt="Sai Kumar — Full Stack Java Developer"
                   className="w-full h-full object-cover object-top"
                 />
               </div>
@@ -94,7 +87,7 @@ const About = () => {
               <SpringBootIcon />
             </div>
             <div data-aos="zoom-in" data-aos-delay="600" className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl">
-              <MernIcon />
+              <AWSIcon />
             </div>
           </div>
 

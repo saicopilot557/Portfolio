@@ -1,355 +1,292 @@
 // ============================================================
-// portfolioData.js — Centralized configuration for Md Yusuf's Portfolio
+// portfolioData.js — Centralized configuration for Sai Kumar's Portfolio
 // All external links, personal info, and content in one place.
 // Update this file to change any content across the entire site.
 // ============================================================
 
 export const personalInfo = {
-  name: "Md Yusuf",
-  firstName: "Md Yusuf",
-  brandName: "Md Yusuf",
-  title: "Full Stack & Java Developer",
-  location: "Bhopal, India",
-  phone: "+91 99396-08743",
+  name: "Sai Kumar",
+  firstName: "Sai Kumar",
+  brandName: "Sai Kumar",
+  title: "Full Stack Java Developer",
+  location: "Raleigh, NC",
+  phone: "(219) 316-1376",
   emails: {
-    primary: "mdyusufcse096@iesuniversity.ac.in",
-    secondary: "yusuf.rgpv@gmail.com",
+    primary: "tsaikumar557@gmail.com",
   },
   summary:
-    "Aspiring software engineer and motivated B.Tech Computer Science student with solid skills in Java, Spring Boot, React, and Python. Passionate about building scalable full-stack applications with clean architecture and modern tech stacks.",
-  resumeUrl: "/Md_Yusuf_Resume_2026.pdf",
+    "Full Stack Java Developer with 7+ years of experience designing, developing, and maintaining scalable, enterprise-grade web applications using Java, Spring Boot, Microservices, React, and Angular across AWS and Azure cloud platforms.",
+  resumeUrl: "/Sai_Kumar_Java_Resume.pdf",
 };
 
+// Social links intentionally left empty until real profile URLs are provided.
+// Components conditionally render these icons/links only when a value is set.
 export const socialLinks = {
-  github: "https://github.com/mdyusuf0",
-  linkedin: "https://linkedin.com/in/mdyusuf0",
-  instagram: "https://instagram.com/heyyusuffff",
+  github: "",
+  linkedin: "",
+  instagram: "",
 };
 
 export const heroContent = {
-  greeting: "Hi, I'm Md Yusuf",
-  titleHighlight: "Full Stack & Java Developer",
+  greeting: "Hi, I'm Sai Kumar",
+  titleHighlight: "Full Stack Java Developer",
   subtitle:
-    "I build fast, scalable applications using Java, Spring Boot, MERN Stack, and Python.",
+    "I build scalable, enterprise-grade applications using Java, Spring Boot, Microservices, React, and Angular across AWS and Azure.",
   ctaPrimary: { text: "View My Work", href: "#projects" },
   ctaSecondary: {
     text: "Contact Me",
-    href: "mailto:mdyusufcse096@iesuniversity.ac.in?subject=Hiring Inquiry – Portfolio&body=Hello Md Yusuf,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
+    href: "mailto:tsaikumar557@gmail.com?subject=Hiring Inquiry – Portfolio&body=Hello Sai Kumar,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
   },
-  ctaResume: { text: "Download Resume", href: "/Md_Yusuf_Resume_2026.pdf" },
+  ctaResume: { text: "Download Resume", href: "/Sai_Kumar_Java_Resume.pdf" },
 };
 
 export const aboutContent = {
   heading: "Hello!",
-  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Md Yusuf</span>, an aspiring software engineer based in Bhopal, India, dedicated to crafting clean, functional, and highly scalable full-stack applications.`,
-  techStack: ["Java", "Spring Boot", "MERN Stack"],
+  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Sai Kumar</span>, a Full Stack Java Developer based in Raleigh, NC, with 7+ years of experience designing and building scalable, secure, high-performing enterprise applications for organizations like Paychex, JPMorgan Chase, and Blue Cross Blue Shield.`,
+  techStack: ["Java", "Spring Boot", "AWS Cloud"],
 };
 
 export const skillsContent = {
   badge: "My Process",
-  heading: "Here's how I turn ideas into real-world applications",
+  heading: "Here's how I turn requirements into production-grade applications",
   description:
-    "I follow a structured, creative, and highly technical approach to turn ideas into robust full-stack applications.",
+    "I follow a structured, agile, and highly technical approach to deliver robust, scalable enterprise applications from the ground up.",
   cards: [
     {
       number: "01",
       title: "Research",
-      text: "I start by understanding goals, user requirements, and technical constraints to lay a rock-solid foundation for the project.",
+      text: "Analyzing requirements, understanding system constraints, and aligning with stakeholders across the full SDLC before writing a line of code.",
     },
     {
       number: "02",
       title: "Design",
-      text: "Crafting clean architecture, intuitive interfaces, and pixel-perfect wireframes that guarantee an engaging and accessible user experience.",
+      text: "Architecting scalable microservices and clean, maintainable systems using proven J2EE design patterns and cloud-native principles.",
     },
     {
       number: "03",
       title: "Develop",
-      text: "Building scalable backends and responsive frontends using modern tech stacks and best practices.",
+      text: "Building robust Spring Boot backends and responsive React/Angular frontends with rigorous test-driven development.",
     },
     {
       number: "04",
       title: "Deploy",
-      text: "Rigorous testing, performance optimization, and seamless deployment to cloud infrastructure, followed by ongoing support.",
+      text: "CI/CD pipelines, containerized deployments on AWS/Azure, and ongoing production support to keep systems fast, secure, and reliable.",
     },
   ],
   endText: "Ready to ship!",
 };
 
-// Brand New Technical Skills Data
+// Technical Skills Data — derived from resume
 export const technicalSkills = {
   categories: [
     {
-      title: "Programming Languages",
+      title: "Languages",
       skills: [
-        { name: "Java", level: 90 },
-        { name: "C++", level: 85 },
-        { name: "Python", level: 75 }
+        { name: "Java", level: 95 },
+        { name: "JavaScript", level: 88 },
+        { name: "Python", level: 70 },
+        { name: "PL/SQL", level: 85 },
       ]
     },
     {
-      title: "Full Stack",
+      title: "Frontend",
       skills: [
-        { name: "MERN Stack", level: 90 },
-        { name: "HTML", level: 95 },
-        { name: "CSS", level: 90 },
-        { name: "JavaScript", level: 92 }
+        { name: "React", level: 88 },
+        { name: "Angular / AngularJS", level: 88 },
+        { name: "HTML5 / CSS3", level: 90 },
+        { name: "Bootstrap / jQuery", level: 85 }
       ]
     },
     {
-      title: "Backend",
+      title: "Backend & Microservices",
       skills: [
-        { name: "Spring Boot", level: 88 },
-        { name: "FastAPI", level: 75 },
-        { name: "REST APIs", level: 90 }
+        { name: "Spring Boot / Spring MVC", level: 95 },
+        { name: "Hibernate / Spring Data JPA", level: 90 },
+        { name: "REST & SOAP Web Services", level: 92 },
+        { name: "Kafka / RabbitMQ", level: 85 }
+      ]
+    },
+    {
+      title: "Cloud & DevOps",
+      skills: [
+        { name: "AWS (EC2, S3, Lambda, RDS)", level: 88 },
+        { name: "Azure", level: 78 },
+        { name: "Docker / Kubernetes", level: 85 },
+        { name: "Jenkins CI/CD", level: 88 }
       ]
     },
     {
       title: "Databases",
       skills: [
-        { name: "MongoDB", level: 88 },
-        { name: "MySQL", level: 85 },
-        { name: "Firebase", level: 80 }
+        { name: "Oracle / PL-SQL", level: 88 },
+        { name: "PostgreSQL / MySQL", level: 85 },
+        { name: "MongoDB / Cassandra", level: 82 },
+        { name: "DynamoDB", level: 78 }
       ]
     },
     {
-      title: "Tools & Automation",
+      title: "Testing & Tools",
       skills: [
-        { name: "Git & GitHub", level: 90 },
-        { name: "VS Code", level: 95 },
-        { name: "Postman", level: 88 },
-        { name: "n8n", level: 82 },
-        { name: "MongoDB Compass", level: 85 },
-        { name: "Antigravity", level: 80 },
-        { name: "Codex", level: 75 }
-      ]
-    },
-    {
-      title: "Computer Science Concepts",
-      skills: [
-        { name: "Data Structures", level: 88 },
-        { name: "Algorithms", level: 85 },
-        { name: "DBMS", level: 86 },
-        { name: "OOP", level: 90 },
-        { name: "Software Engineering", level: 84 }
+        { name: "JUnit / Mockito", level: 90 },
+        { name: "Selenium", level: 80 },
+        { name: "Maven / Ant", level: 88 },
+        { name: "Git / Postman / JIRA", level: 90 }
       ]
     }
   ]
 };
-
-// Brand New Content Creation Data
-export const contentCreation = {
-  badge: "Cinematic Content",
-  heading: "Creative Direction & Cinematic Edits",
-  description: "Beyond coding, I craft visual stories with premium editing, color grading, and creative pacing.",
-  categories: [
-    {
-      title: "Cinematic Reels",
-      description: "Visual stories crafted with cinematic lighting, premium color grading, and high-impact sound design.",
-      stats: "50+ Reels Created",
-      icon: "🎥"
-    },
-    {
-      title: "Travel Videos",
-      description: "Immersive travel vlogs and aesthetic edits capturing cultures, landscapes, and visual rhythms.",
-      stats: "15+ Countries/Cities",
-      icon: "✈️"
-    },
-    {
-      title: "Educational Reels",
-      description: "Fast-paced tech tutorials and educational content designed to simplify coding and software engineering.",
-      stats: "100k+ Views",
-      icon: "🧠"
-    },
-    {
-      title: "My Own Creative Edits",
-      description: "Experimental transitions, 3D overlays, and trendsetting visual effects that push creative bounds.",
-      stats: "Personal Projects",
-      icon: "⚡"
-    }
-  ]
-};
-
-// Brand New Leadership Data
-export const leadershipList = [
-  {
-    title: "IEEE Madhya Pradesh Section (Social Media Team)",
-    description: "Managed and coordinated digital content, driving audience engagement and designing interactive visual campaigns for tech events.",
-    role: "Social Media Coordinator",
-    badge: "Volunteer"
-  },
-  {
-    title: "Team Coordinator – Go-Kart International Racing 2K25",
-    description: "Led multi-disciplinary teams in project management, budget control, and logistics coordination for a high-profile international racing event.",
-    role: "Team Coordinator",
-    badge: "Leadership"
-  },
-  {
-    title: "5-Day MOE IDE Bootcamp, Roorkee",
-    description: "Participated in an intensive Innovation, Design, and Entrepreneurship Bootcamp organized by the Ministry of Education at IIT Roorkee.",
-    role: "Bootcamp Graduate",
-    badge: "Innovation"
-  },
-  {
-    title: "Hosted INFORIA Tech Summit Hackathon",
-    description: "Organized and hosted the flagship hackathon, managing registrations, mentoring participant teams, and coordinating judge evaluations.",
-    role: "Hackathon Organizer",
-    badge: "Co-Curricular"
-  },
-  {
-    title: "Event Coordinator & Anchoring – INFORIA 2K25",
-    description: "Coordinated technical events and served as the main stage anchor, speaking in front of large crowds and managing the summit flow.",
-    role: "Stage Anchor & Coordinator",
-    badge: "Public Speaking"
-  }
-];
-
-// Brand New Internships Data
-export const internshipsList = [
-  {
-    organization: "Netlink, Bhopal",
-    role: "Data Analytics & BI Tools Intern",
-    duration: "June 2025 - August 2025",
-    skills: ["Data Analytics", "Business Intelligence", "Dashboard Design", "Data Modeling"],
-    tech: ["Lumenore", "MySQL", "Excel", "BI Tools"]
-  },
-  {
-    organization: "Canva",
-    role: "Visual Content Creator & Designer",
-    duration: "May 2024 - June 2024",
-    skills: ["Visual Designing", "Poster Design", "Team Branding", "Asset Creation"],
-    tech: ["Canva Pro", "Figma", "Canva Design Suite"]
-  },
-  {
-    organization: "CollegeTips.in",
-    role: "Web Development Intern",
-    duration: "1 Month (Offline)",
-    skills: ["Frontend Development", "Responsive Layouts", "API Testing", "Web Performance"],
-    tech: ["HTML5", "CSS3", "JavaScript", "Bootstrap"]
-  }
-];
-
-// Brand New Soft Skills Data
-export const softSkillsList = [
-  { name: "Leadership", icon: "👑", desc: "Guiding teams, managing tasks, and driving project completion with shared vision." },
-  { name: "Public Speaking", icon: "🎤", desc: "Confident stage presence, anchoring summits, and delivering articulate technical ideas." },
-  { name: "Team Collaboration", icon: "🤝", desc: "Collaborating across fields, building racing carts, and engineering code in sync." },
-  { name: "Communication", icon: "💬", desc: "Clear, concise, and structured interactions in both business and technical contexts." },
-  { name: "Problem Solving", icon: "🧩", desc: "Breaking down complex engineering tasks into clean, logical, and modular pieces." },
-  { name: "Adaptability", icon: "🌟", desc: "Quick to pick up new frameworks like FastAPI, Spring Boot, or automation tools like n8n." },
-  { name: "Creativity", icon: "🎨", desc: "Blending cinematic aesthetics with software structure to build premium experiences." },
-  { name: "Time Management", icon: "⏰", desc: "Balancing B.Tech studies, event hosting, and developing robust software platforms." }
-];
 
 export const projects = [
   {
-    id: "foodmesh",
+    id: "microservices-modernization",
     number: "01",
-    badge: "🚀 Flagship Project",
-    title: "FoodMesh",
+    badge: "🚀 Enterprise Modernization",
+    title: "Enterprise Microservices Modernization",
     description:
-      "FoodMesh — An enterprise-grade multi-tenant restaurant management and food ordering SaaS platform inspired by UrbanPiper. It enables restaurants to manage multiple outlets, menus, inventory, customers, staff, and orders through a scalable architecture with secure authentication, role-based access control, and real-time operations. Built with React, Next.js, NestJS, PostgreSQL, Redis, Kafka, Elasticsearch, Docker, Kubernetes, and AWS.",
+      "Led the upgrade of a large-scale Spring Boot microservices ecosystem — migrating from Java 8 to Java 17, Spring Boot 2.7 to 3.x, and JUnit 4 to JUnit 5. Converted legacy SOAP endpoints to REST, introduced Kafka and RabbitMQ for asynchronous inter-service messaging, and containerized deployments on OpenShift, improving application performance by 50%.",
     techTags: [
-      "React",
-      "Next.js",
-      "NestJS",
-      "PostgreSQL",
-      "Redis",
+      "Java 17",
+      "Spring Boot",
       "Kafka",
-      "Elasticsearch",
+      "RabbitMQ",
+      "OpenShift",
       "Docker",
-      "Kubernetes",
-      "AWS",
+      "Jenkins",
+      "GraphQL",
     ],
     links: {
-      github: "https://github.com/ersamirsingh/UrbanPiper",
+      github: null,
       demo: null,
     },
     isFlagship: true,
   },
   {
-    id: "karigar",
+    id: "schema-visualization-platform",
     number: "02",
     badge: null,
-    title: "Karigar",
+    title: "Schema Visualization & Governance Platform",
     description:
-      "A platform connecting local skilled workers with customers, featuring real-time search, worker profiles, and booking management with full database integration.",
-    techTags: ["React", "Node.js", "MongoDB", "Express", "REST API"],
+      "Built a custom Maven/Liquibase schema management plugin adopted across multiple departments, paired with a React-based visualization application that maps relationships between microservice domains in real time using Kafka and an Avro schema registry. Secured with OAuth 2.0 SSO via Ping Federate.",
+    techTags: ["React", "Spring Boot", "Kafka", "Avro", "AWS EKS", "PostgreSQL", "OAuth 2.0"],
     links: {
-      github: "https://github.com/mdyusuf0/Karigar",
-      frontendDemo: "https://karigar-frontend.onrender.com",
-      backendApi: "https://karigar-zny2.onrender.com",
+      github: null,
     },
     isFlagship: false,
   },
   {
-    id: "sentiment-analysis",
+    id: "provider-screening-platform",
     number: "03",
     badge: null,
-    title: "AI-Powered Sentiment Analysis",
+    title: "Advanced Provider Screening Platform",
     description:
-      "A full-stack web application that analyzes citizen feedback using Artificial Intelligence to classify sentiments as positive, negative, or neutral. Features a responsive React frontend, a Node.js backend, MongoDB for data storage, and n8n automation for workflow orchestration — enabling real-time insights and efficient feedback management.",
-    techTags: ["React", "Node.js", "MongoDB", "n8n", "AI/ML", "REST API"],
+      "Developed a RESTful RFP microservice with Spring Boot and Spring MVC, backed by a React/Redux single-page application for CMS provider network operations. Designed a highly available AWS architecture (EC2, S3, RDS, Lambda) and implemented Okta-based authentication across environments.",
+    techTags: ["React", "Redux", "Spring Boot", "MongoDB", "AWS", "Oracle", "Okta"],
     links: {
-      github: "#", // Update when available
+      github: null,
     },
     isFlagship: false,
   },
 ];
 
-export const certificates = {
-  featured: [
+// Professional Experience — real employers from resume
+export const internshipsList = [
+  {
+    organization: "Paychex Inc., Rochester",
+    role: "Sr. Java/UI Developer",
+    duration: "Sep 2022 – Present",
+    skills: [
+      "Led Java 8 → 17 and Spring Boot 2.7 → 3.x upgrade across microservices",
+      "Migrated SOAP endpoints to REST APIs, documented with Swagger",
+      "Implemented Kafka & RabbitMQ for real-time inter-service messaging",
+      "Improved application performance by 50% through bottleneck analysis",
+    ],
+    tech: ["Java", "Spring Boot", "Angular JS", "Kafka", "RabbitMQ", "OpenShift", "Docker", "Jenkins"],
+  },
+  {
+    organization: "JP Morgan Chase & Co, Chicago",
+    role: "Sr. Java/J2EE Developer",
+    duration: "Apr 2021 – Jun 2022",
+    skills: [
+      "Built a custom Maven/Liquibase schema management plugin adopted org-wide",
+      "Developed a React-based schema visualization platform integrated with Kafka/Avro",
+      "Implemented OAuth 2.0 SSO via Ping Federate for enterprise web services",
+      "Deployed microservices on AWS EKS with Jenkins CI/CD on Kubernetes",
+    ],
+    tech: ["Java", "Spring Boot", "React", "Kafka", "AWS", "Kubernetes", "PostgreSQL"],
+  },
+  {
+    organization: "NIPR, Kansas",
+    role: "Sr. Java/J2EE Developer",
+    duration: "Mar 2019 – Mar 2021",
+    skills: [
+      "Built Single Page Applications with Angular 8 and Spring Boot microservices",
+      "Enabled service discovery with Netflix Eureka and a Zuul API Gateway",
+      "Secured REST endpoints with Spring Security & OAuth 2.0",
+      "Automated CI/CD pipelines with Jenkins and managed code quality with Sonar",
+    ],
+    tech: ["Java", "Angular", "Spring Boot", "Hibernate", "AWS", "Kafka", "Jenkins", "Oracle"],
+  },
+  {
+    organization: "Aprima Medical, Richardson, TX",
+    role: "Sr. Java/J2EE Developer",
+    duration: "Feb 2018 – Feb 2019",
+    skills: [
+      "Migrated Angular 4 controllers to Angular 6 components for better performance",
+      "Designed REST resource URIs with Swagger for practice management APIs",
+      "Achieved 95% test coverage using Mockito, JaCoCo, and H2 in-memory testing",
+      "Containerized services with Docker, orchestrated via Docker Swarm/Kubernetes",
+    ],
+    tech: ["Java 1.8", "Angular", "Spring Boot", "Spring JPA", "Cassandra", "PostgreSQL", "Azure", "Okta"],
+  },
+  {
+    organization: "Blue Cross Blue Shield, Kansas City, MO",
+    role: "Mid-level Java Developer",
+    duration: "Nov 2016 – Jan 2018",
+    skills: [
+      "Built a RESTful RFP microservice using Spring Boot & Spring MVC",
+      "Developed a React/Redux SPA for the Advanced Provider Screening platform",
+      "Designed a highly available AWS architecture (EC2, S3, RDS, Lambda)",
+      "Implemented Okta-based authentication across sandbox environments",
+    ],
+    tech: ["Java", "React", "Redux", "Spring Boot", "MongoDB", "AWS", "Oracle", "Selenium"],
+  },
+];
+
+// Brand New Soft Skills Data
+export const softSkillsList = [
+  { name: "Problem Solving", icon: "🧩", desc: "Breaking down complex engineering challenges into clean, logical, and modular solutions." },
+  { name: "Communication", icon: "💬", desc: "Clear, concise interactions across offshore-onsite teams, stakeholders, and business partners." },
+  { name: "Team Leadership", icon: "👑", desc: "Leading small teams and coordinating as an Offshore–Onsite point of contact on delivery-critical projects." },
+  { name: "Adaptability", icon: "🌟", desc: "Quick to pick up new frameworks and tools — from Spring Boot 3 to GraphQL to Kubernetes." },
+  { name: "Agile Collaboration", icon: "🤝", desc: "Deep experience in Agile/Scrum methodology, sprint planning, and cross-functional delivery." },
+  { name: "Time Management", icon: "⏰", desc: "Balancing production support, feature delivery, and sprint goals under tight deadlines." },
+  { name: "Mentorship", icon: "🎓", desc: "Guiding teams through major upgrades and migrations while maintaining system stability." },
+  { name: "Ownership", icon: "🎯", desc: "End-to-end accountability from requirements gathering through deployment and production support." }
+];
+
+export const education = {
+  items: [
     {
-      name: "Oracle Cloud Infrastructure 2025",
-      issuer: "Oracle",
-      icon: "☁️",
-    },
-    {
-      name: "Programming in Java (94%)",
-      issuer: "NPTEL",
-      icon: "☕",
-    },
-    {
-      name: "C Programming & Assembly Language",
-      issuer: "NPTEL",
-      icon: "⚙️",
-    },
-    {
-      name: "Technology Job Simulation",
-      issuer: "Deloitte",
-      icon: "💼",
-    },
-    {
-      name: "Career Edge – IT Primer",
-      issuer: "TCS iON",
+      degree: "Master of Science in Computer Science",
+      institution: "Governors State University",
       icon: "🎓",
     },
     {
-      name: "Fundamentals of BI & Analytics",
-      issuer: "Lumenore",
-      icon: "📊",
+      degree: "Bachelor of Technology in Computer Science & Engineering",
+      institution: "JNTU",
+      icon: "📘",
     },
   ],
-  viewAllUrl:
-    "https://drive.google.com/file/d/1ObdGWtVSx8SsfR4AcbCySSd9LFXcAs9f/view?usp=sharing",
-};
-
-export const education = {
-  degree: "B.Tech – Computer Science & Engineering",
-  institution: "IES College of Technology (RGPV)",
-  cgpa: "8.35",
-  graduation: "2027",
-  twelfth: "12th Science – 81%",
-  tenth: "10th CBSE – 70%",
 };
 
 export const footerContent = {
   taglines: [
     "Software Engineering & Web Dev",
     "Java · Spring Boot · React",
-    "Full Stack Applications",
+    "Full Stack Enterprise Applications",
   ],
-  credential: "B.Tech CSE · CGPA 8.35",
-  copyright: `© ${new Date().getFullYear()} Md Yusuf | Built with React`,
+  credential: "7+ Years · Full Stack Java Developer",
+  copyright: `© ${new Date().getFullYear()} Sai Kumar | Built with React`,
 };
 
 // EmailJS Configuration

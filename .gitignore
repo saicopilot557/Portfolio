@@ -27,3 +27,6 @@ dist-ssr
 .env
 .env.local
 .env.*.local
+
+# Raw source assets (already copied into src/assets and public/)
+Portfolio_Assets/
