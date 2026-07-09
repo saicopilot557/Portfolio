@@ -33,21 +33,38 @@ const Hero = () => {
     }
   };
 
+  const handleVideoEnded = () => {
+    // Play once, then reset to the beginning and fall back to the hero image
+    // until the user clicks Play Reel again.
+    if (videoRef.current) {
+      videoRef.current.currentTime = 0;
+    }
+    setIsPlaying(false);
+  };
+
   return (
     <section className="relative w-full h-screen overflow-hidden bg-black">
       {/* Background Video */}
       <video
         ref={videoRef}
-        loop
         muted={isMuted}
         playsInline
-        poster={heroPoster}
         preload="metadata"
+        onEnded={handleVideoEnded}
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
       >
         <source src={heroVideo} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+
+      {/* Hero image shown whenever the reel isn't actively playing */}
+      {!isPlaying && (
+        <img
+          src={heroPoster}
+          alt="Sai Kumar — Full Stack Java Developer"
+          className="absolute top-0 left-0 w-full h-full object-cover z-[1]"
+        />
+      )}
 
       {/* Left Floating Social Bar for Large Screens */}
       {hasSocials && (
@@ -198,7 +215,7 @@ const Hero = () => {
             )}
           </div>
           <span className="text-white text-[10px] md:text-xs font-bold tracking-widest uppercase opacity-70 group-hover:opacity-100 transition-opacity">
-            {!isPlaying || isMuted ? "Play Reel" : "Pause"}
+            {!isPlaying || isMuted ? "Watch Intro" : "Pause"}
           </span>
         </div>
       </div>
