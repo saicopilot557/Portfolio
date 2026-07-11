@@ -42,7 +42,7 @@ export const heroContent = {
 
 export const aboutContent = {
   heading: "Hello!",
-  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Sai Kumar</span>, a Full Stack Java Developer based in Raleigh, NC, with 7+ years of experience designing and building scalable, secure, high-performing enterprise applications for organizations like Paychex, JPMorgan Chase, and Blue Cross Blue Shield.`,
+  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Sai Kumar</span>, a Full Stack Java Developer based in Raleigh, NC, with 7+ years of experience designing and building scalable, secure, high-performing enterprise applications for organizations like EXIM Bank, JPMorgan Chase, and Blue Cross Blue Shield.`,
   techStack: ["Java", "Spring Boot", "AWS Cloud"],
 };
 
@@ -191,9 +191,9 @@ export const projects = [
 // Professional Experience — real employers from resume
 export const internshipsList = [
   {
-    organization: "Paychex Inc., Rochester",
+    organization: "EXIM Bank, Washington, D.C.",
     role: "Sr. Java/UI Developer",
-    duration: "Sep 2022 – Present",
+    duration: "Dec 2021 – Present",
     skills: [
       "Led Java 8 → 17 and Spring Boot 2.7 → 3.x upgrade across microservices",
       "Migrated SOAP endpoints to REST APIs, documented with Swagger",
@@ -205,7 +205,7 @@ export const internshipsList = [
   {
     organization: "JP Morgan Chase & Co, Chicago",
     role: "Sr. Java/J2EE Developer",
-    duration: "Apr 2021 – Jun 2022",
+    duration: "Apr 2020 – Dec 2021",
     skills: [
       "Built a custom Maven/Liquibase schema management plugin adopted org-wide",
       "Developed a React-based schema visualization platform integrated with Kafka/Avro",
@@ -217,7 +217,7 @@ export const internshipsList = [
   {
     organization: "NIPR, Kansas",
     role: "Sr. Java/J2EE Developer",
-    duration: "Mar 2019 – Mar 2021",
+    duration: "Mar 2019 – Mar 2020",
     skills: [
       "Built Single Page Applications with Angular 8 and Spring Boot microservices",
       "Enabled service discovery with Netflix Eureka and a Zuul API Gateway",
